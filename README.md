@@ -38,3 +38,7 @@ Why:
 Hermes Agent Tool Chaining  
 Structured JSON outputs  
 Custom scoring logic  
+
+## Demo
+
+See demo_output.json for example structured opportunity output.
