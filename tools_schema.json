@@ -1,0 +1,24 @@
+{
+  "tools": [
+    {
+      "name": "reddit_search",
+      "description": "Searches Reddit for posts based on keywords",
+      "input": {
+        "type": "object",
+        "properties": {
+          "query": { "type": "string" },
+          "subreddit": { "type": "string" },
+          "time_filter": { "type": "string" }
+        }
+      }
+    },
+    {
+      "name": "cluster_posts",
+      "description": "Groups posts by semantic similarity"
+    },
+    {
+      "name": "detect_payment_intent",
+      "description": "Detects signals of willingness to pay"
+    }
+  ]
+}
