@@ -1,5 +1,5 @@
 # 🚀 Hermes Opportunity Analyzer Agent
-
+Built for the Hermes AI Agent Hackathon
 An autonomous Hermes agent that discovers monetizable startup opportunities from real user pain points.
 
 ## What It Does
@@ -23,6 +23,10 @@ Scoring Engine
 ↓  
 Opportunity Report  
 
+## Example Input
+
+"Freelancers struggle to recover unpaid invoices from clients"
+
 ## Example Output
 
 Opportunity: Freelancer Invoice Recovery SaaS  
@@ -34,11 +38,35 @@ Why:
 - Clear willingness to pay  
 - Weak existing solutions  
 
+## How It Works
+
+1. The agent searches Reddit discussions using the Hermes tool system.
+2. It clusters repeated user problems.
+3. It detects payment intent signals.
+4. A scoring engine evaluates opportunity strength.
+5. The agent generates a structured opportunity report.
+
 ## Built With
 Hermes Agent Tool Chaining  
 Structured JSON outputs  
 Custom scoring logic  
 
+## Installation
+
+git clone https://github.com/hermes-agent-lab/hermes-opportunity-agent
+cd hermes-opportunity-agent
+
+pip install -r requirements.txt
+
+## Run the Agent
+
+python main.py
+
+
 ## Demo
 
-See demo_output.json for example structured opportunity output.
+Example structured opportunity analysis can be found in:
+
+demo_output.json
+
+This file shows how the Hermes Opportunity Agent evaluates real-world problems and generates startup opportunity reports.
