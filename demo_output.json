@@ -1,10 +1,11 @@
 {
-  "opportunity_name": "Freelancer Invoice Recovery SaaS",
+  "problem": "Freelancers struggle to recover unpaid invoices from clients",
+  "opportunity": "Freelancer Invoice Recovery SaaS",
   "score": 82,
-  "mentions_last_30_days": 127,
-  "avg_upvotes": 54,
-  "frustration_level": "high",
-  "payment_signals_detected": 18,
-  "summary": "Freelancers frequently complain about unpaid invoices and express willingness to pay for automated recovery tools.",
-  "market_validation": "Recurring complaints + strong emotional language + payment intent phrases."
+  "signals": {
+    "mentions_last_30_days": 120,
+    "frustration_level": "High",
+    "payment_intent": "Strong"
+  },
+  "recommendation": "Build a SaaS platform that automates invoice follow-ups and payment recovery."
 }
