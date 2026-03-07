@@ -60,7 +60,8 @@ pip install -r requirements.txt
 
 ## Run the Agent
 
-python main.py
+Run the agent using the Hermes framework.
+Example output is shown in demo_output.json
 
 
 ## Demo
